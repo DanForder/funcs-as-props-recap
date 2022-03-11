@@ -18,7 +18,6 @@ const App = () => {
   };
 
   const handleUserInput = (event) => {
-    console.log(event.target.value);
     setMessage(event.target.value);
   };
 
